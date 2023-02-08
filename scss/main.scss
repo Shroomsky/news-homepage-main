@@ -96,14 +96,13 @@ header {
 }
 #open {
 	position: fixed;
-	// position: absolute;
+
 	right: 25px;
 	top: 15px;
 	margin-top: 5px;
 	font-size: 1.7rem;
-	
 }
-.white-color{
+.white-color {
 	color: colors.$Off-white;
 }
 #topDesktop {
@@ -131,9 +130,9 @@ header {
 main {
 	& h1 {
 		padding: 10px 0;
-		font-size: 2.7rem;
+		font-size: 2rem;
 		font-weight: 800;
-		line-height: 1;
+		line-height: 1.2;
 	}
 	& p {
 		padding-bottom: 15px;
@@ -300,8 +299,24 @@ main {
 			display: grid;
 			grid-template-rows: repeat(3, 1fr);
 			gap: 10px;
-			& h1 {
-				padding-right: 50px;
+			.titleContainer {
+				align-items: flex-start;
+				justify-content: space-between;
+				gap: 10px;
+				& .title {
+					
+					max-width: auto;
+					& h1 {
+						font-size: 4rem;
+					}
+				}
+				& .detail{
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: flex-start;
+					gap: 80px;
+				}
 			}
 			& .top {
 				grid-column: 1 / 3;

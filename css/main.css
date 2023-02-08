@@ -191,9 +191,9 @@ header {
 
 main h1 {
   padding: 10px 0;
-  font-size: 2.7rem;
+  font-size: 2rem;
   font-weight: 800;
-  line-height: 1;
+  line-height: 1.2;
 }
 main p {
   padding-bottom: 15px;
@@ -352,8 +352,23 @@ main .bottom .card-details h3:hover {
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
   }
-  .wrapper main h1 {
-    padding-right: 50px;
+  .wrapper main .titleContainer {
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .wrapper main .titleContainer .title {
+    max-width: auto;
+  }
+  .wrapper main .titleContainer .title h1 {
+    font-size: 4rem;
+  }
+  .wrapper main .titleContainer .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
   }
   .wrapper main .top {
     grid-column: 1/3;
