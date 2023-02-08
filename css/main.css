@@ -148,7 +148,7 @@ header {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 #logo {
