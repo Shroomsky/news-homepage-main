@@ -211,7 +211,8 @@ main .new {
 }
 main .new h2 {
   color: hsl(35deg, 77%, 62%);
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 main .new h3 {
   color: hsl(36deg, 100%, 99%);
