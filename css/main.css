@@ -156,11 +156,15 @@ header {
 }
 
 #open {
-  font-size: 1.7rem;
-  margin-top: 5px;
-  position: absolute;
-  right: 20px;
+  position: fixed;
+  right: 25px;
   top: 15px;
+  margin-top: 5px;
+  font-size: 1.7rem;
+}
+
+.white-color {
+  color: hsl(36deg, 100%, 99%);
 }
 
 #topDesktop {

@@ -95,12 +95,16 @@ header {
 	height: 30px;
 }
 #open {
-	font-size: 1.7rem;
-	margin-top: 5px;
-	// position: fixed;
-	position: absolute;
-	right: 20px;
+	position: fixed;
+	// position: absolute;
+	right: 25px;
 	top: 15px;
+	margin-top: 5px;
+	font-size: 1.7rem;
+	
+}
+.white-color{
+	color: colors.$Off-white;
 }
 #topDesktop {
 	display: none;

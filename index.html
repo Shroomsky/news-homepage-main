@@ -17,26 +17,27 @@
 
 <body>
   <div id="mask"></div>
-  <div class="wrapper">
+  <div class="wrapper" id="home">
     <header>
       <a href=""><img src="./assets/images/logo.svg" alt="news logo" id="logo"></a>
-      <!-- <i class="fa-solid fa-bars" id="open"></i> -->
-      <img src="./assets/images/icon-menu.svg" alt="close menu" id="open">
+      <i class="fa-solid fa-bars" id="open"></i>
     </header>
     <nav class="nav">
       <img src="./assets/images/icon-menu-close.svg" alt="close menu" id="close" onclick="closeMenu()">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#new">New</a></li>
-        <li><a href="">Popular</a></li>
-        <li><a href="#trending">Trending</a></li>
-        <li><a href="">Categories</a></li>
+        <li><a href="#home" onclick="closeMenu()">Home</a></li>
+        <li><a href="#new" onclick="closeMenu()">New</a></li>
+        <li><a href="" onclick="closeMenu()">Popular</a></li>
+        <li><a href="#trending" onclick="closeMenu()">Trending</a></li>
+        <li><a href="" onclick="closeMenu()">Categories</a></li>
       </ul>
     </nav>
     <main>
-      <section class="top" id="#home">
-        <img src="./assets/images/image-web-3-mobile.jpg" alt="" aria-hidden="true" id="topMobile">
-        <img src="./assets/images/image-web-3-desktop.jpg" alt="" aria-hidden="true" id="topDesktop">
+      <section class="top">
+        <div class="imgContainer white">
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="" aria-hidden="true" id="topMobile">
+          <img src="./assets/images/image-web-3-desktop.jpg" alt="" aria-hidden="true" id="topDesktop">
+        </div>
         <div class="titleContainer">
           <div class="title">
             <h1>The Bright Future of Web 3.0?</h1>
@@ -52,23 +53,24 @@
         </div>
       </section>
       <section class="new" id="new">
-        <h2>New</h2>
+        <div class="white">
+          <h2>New</h2>
 
-        <a href="">
-          <h3>Hydrogen VS Electric Cars</h3>
-        </a>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-        <hr>
-        <a href="">
-          <h3>The Downsides of AI Artistry</h3>
-        </a>
-        <p>What are the possible adverse effects of on-demand AI image generation?</p>
-        <hr>
-        <a href="">
-          <h3>Is VC Funding Drying Up?</h3>
-        </a>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-
+          <a href="">
+            <h3>Hydrogen VS Electric Cars</h3>
+          </a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+          <a href="">
+            <h3>The Downsides of AI Artistry</h3>
+          </a>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          <hr>
+          <a href="">
+            <h3>Is VC Funding Drying Up?</h3>
+          </a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
       </section>
       <section class="bottom" id="trending">
         <div class="card-number">
