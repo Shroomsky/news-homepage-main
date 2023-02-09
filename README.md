@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![mobil_view_1](./screenshot_1.png)
-![mobil_view_2](./screenshot_4.png)
-![mobil_view_3](./screenshot_5.png)
-![mobil_view_Menu_avtive](./screenshot_6.png)
-![Tablet_view](./screenshot_2.png)
-![Desktop_view](./screenshot_3.png)
+![mobil_view_1](./Screenshot_1.png)
+![mobil_view_2](./Screenshot_4.png)
+![mobil_view_3](./Screenshot_5.png)
+![mobil_view_Menu_avtive](./Screenshot_6.png)
+![Tablet_view](./Screenshot_2.png)
+![Desktop_view](./Screenshot_3.png)
 
 
 ### Links
